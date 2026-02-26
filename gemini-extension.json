@@ -1,0 +1,13 @@
+{
+  "name": "super-extension",
+  "version": "1.1.0",
+  "description": "包含 Build 分析、Email 處理與公司內部 Wiki 的全能套件",
+  "author": "Your Name",
+  "license": "MIT",
+  "contextFileName": "internal-wiki.md",
+  "commands": [
+    "commands/analyze-build.toml",
+    "commands/mail-creator.toml",
+    "commands/commit-push.toml"
+  ]
+}

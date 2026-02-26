@@ -1,1 +1,1 @@
-# gemini_skill
+# gemini_skills
