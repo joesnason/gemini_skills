@@ -55,4 +55,4 @@
 專案包含一份 `internal-wiki.md`，記載了常見的 Jenkins 錯誤模式（如 `hudson.AbortException`, `Timeout exceeded` 等）以及 Ninja/Make 的分析技巧。這份文檔是 `analyze-build` 指令的核心上下文。
 
 ---
-**版本**: 1.1.0 | **作者**: Your Name | **授權**: MIT
+**版本**: 1.1.0 | **作者**: jonathan Hsieh | **授權**: MIT
