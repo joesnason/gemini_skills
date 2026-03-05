@@ -1,8 +1,5 @@
-name = "analyze-build"
 description = "分析 logs/ 資料夾中的 build log，找出失敗原因並提供修復建議"
-
-[prompt]
-text = """
+prompt = """
 # 分析前準備（重要！）
 1. **先確認檔案存在**：查看 logs/ 資料夾有哪些 .log 檔案。
 2. 如果找到 build.log，直接開始分析該檔案。

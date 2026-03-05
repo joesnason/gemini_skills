@@ -1,14 +1,9 @@
 description = "自動化 Git 工作流"
-
-[[steps]]
-role = "system"
-content = """
+prompt = """
 你現在擁有執行 shell 指令的能力。請依序：
 1. 執行 `git status` 與 `git diff`。
 2. 根據變更撰寫 commit message。
 3. 執行 commit 與 push。
-"""
 
-[[steps]]
-role = "user"
-content = "請幫我完成這次的 Git 提交流程。"
+請幫我完成這次的 Git 提交流程。
+"""
